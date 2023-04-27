@@ -1,0 +1,36 @@
+:root {
+    --primary-color: green;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background-image: url("../images/View_07.webp");
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-attachment: fixed;
+    /* position: absolute; */
+    background-position: center;
+    /* max-height: 100vh; */
+    min-height: 100vh;
+    /* z-index: -100; */
+}
+
+section {
+    min-height: 100vh;
+    /* outline: red 1px solid; */
+}
+
+.section-heading {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+@media screen {}

@@ -1,0 +1,51 @@
+#location {
+    background-color: #000000;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+/* #location>h3 {
+
+} */
+
+.map-image {
+    padding: 20px;
+}
+
+.map-image img {
+    width: 100%;
+}
+
+.nearby-heading {
+    font-size: 2em;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+.nearby-locations {
+    text-align: center;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+.nearby-location-item {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    /* border: 2px solid black; */
+    max-width: 80%;
+    border-radius: 20px;
+    background: #060606;
+    box-shadow: 10px 10px 10px #555555, -10px -10px 15px #212121;
+}
+
+
+/* .google-map {
+    width: "100%";
+    height: "450px";
+} */

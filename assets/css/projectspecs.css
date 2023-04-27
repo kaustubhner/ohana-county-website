@@ -1,0 +1,18 @@
+#project-specifications {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.project-spec {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    /* border: 2px solid black; */
+    max-width: 80%;
+    border-radius: 25px;
+    background: #f0f0f0;
+    box-shadow: 10px 10px 20px #555555, -10px -10px 20px #ffffff;
+}

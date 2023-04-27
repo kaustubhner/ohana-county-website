@@ -1,0 +1,44 @@
+#hero {
+    background: linear-gradient(to top, hsl(0, 0%, 0%, 40%), hsl(0, 0%, 0%, 40%)), url(../images/OS1.jfif);
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    /* background-size: contain; */
+    background-position: center;
+    /* position: absolute; */
+}
+
+.main-heading {
+    font-size: 42px;
+    color: white;
+    margin-block-start: 0px !important;
+    margin-block-end: 10px !important;
+    /* padding-top: 200px; */
+    margin: 50px;
+}
+
+.l1 {
+    padding-top: 200px;
+    /* font-size: 1.25em; */
+    /* font-weight: lighter; */
+}
+
+.l2 {
+    /* font-weight: bold; */
+    /* font-size: 2em; */
+}
+
+.l3 {
+    /* font-size: 2.75em; */
+    /* font-weight: bolder; */
+    margin-block-end: 2em !important;
+}
+
+.sub-heading {
+    font-size: 22px;
+    color: white;
+    margin-block-start: 0px !important;
+    /* padding-top: 150px; */
+    margin: 50px;
+}

@@ -1,0 +1,35 @@
+#amenities {
+    /* background: url(../images/Gate.jfif); */
+    /* background: transparent; */
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    /* background-size: auto 100vh; */
+    background-size: contain;
+    background-position: center;
+}
+
+.amenity-icon-wrap {
+    /**
+   * User input values.
+   */
+    --grid-layout-gap: 0px;
+    --grid-column-count: 2;
+    --grid-item--min-width: 50px;
+    /**
+   * Calculated values.
+   */
+    --gap-count: calc(var(--grid-column-count) - 1);
+    --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+    --grid-item--max-width: calc( (100% - var(--total-gap-width)) / var(--grid-column-count));
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr));
+    grid-gap: var(--grid-layout-gap);
+}
+
+.amenity-icon {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
